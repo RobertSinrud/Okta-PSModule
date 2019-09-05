@@ -773,7 +773,7 @@ function _oktaNewCall()
     return $results
 }
 
-function oktaNewUser()
+function New-OktaUser()
 {
     param
     (
@@ -829,7 +829,7 @@ function oktaNewUser()
     return $request
 }
 
-function oktaNewUser2()
+function New-OktaUser2()
 {
     param
     (
@@ -876,7 +876,7 @@ function oktaNewUser2()
     return $request
 }
 
-function oktaChangeProfilebyID()
+function Set-OktaProfile()
 {
     param
     (
@@ -908,7 +908,7 @@ function oktaChangeProfilebyID()
     return $request
 }
 
-function oktaPutProfileupdate()
+function Set-OktaProfile()
 {
     param
     (
@@ -1127,7 +1127,7 @@ function oktaAdminUpdatePasswordbyID()
     return $request
 }
 
-function oktaForgotPasswordbyId()
+function Get-OktaResetPassword()
 {
     param
     (
@@ -1161,7 +1161,7 @@ function oktaForgotPasswordbyId()
     return $request
 }
 
-function oktaCheckCredsOld()
+function Test-OktaCredsOld()
 {
     <# 
      .Synopsis
@@ -1213,7 +1213,7 @@ function oktaCheckCredsOld()
     return $request
 }
 
-function oktaCheckCreds()
+function Test-OktaCreds()
 {
     <# 
      .Synopsis
@@ -1315,7 +1315,7 @@ function oktaCheckCreds()
     return $request
 }
 
-function oktaGetUserbyID()
+function Get-OktaUser()
 {
     param
     (
@@ -1348,7 +1348,7 @@ function oktaGetUserbyID()
     return $request
 }
 
-function oktaDeleteUserbyID()
+function Remove-OktaUser()
 {
     param
     (
@@ -1374,7 +1374,7 @@ function oktaDeleteUserbyID()
     return $request
 }
 
-function oktaSuspendUserbyID()
+function Lock-OktaUser()
 {
     param
     (
@@ -1400,7 +1400,7 @@ function oktaSuspendUserbyID()
     return $request
 }
 
-function oktaUnSuspendUserbyID()
+function Unlock-OktaUser()
 {
     param
     (
@@ -1426,7 +1426,7 @@ function oktaUnSuspendUserbyID()
     return $request
 }
 
-function oktaGetUsersbyAppID()
+function Get-OktaAppMember()
 {
     param
     (
@@ -1499,7 +1499,7 @@ function oktaGetUsersbyAppIDWithStatus()
     return $request
 }
 
-function oktaListApps()
+function Get-OktaApps()
 {
     param
     (
