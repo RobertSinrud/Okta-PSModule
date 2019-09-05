@@ -3973,7 +3973,7 @@ function oktaListLogs()
 
 ################## Identity Providers ###########################
 
-function oktaListProviders()
+function Get-OktaProvider()
 {
     param
     (
@@ -4012,7 +4012,7 @@ function oktaListProviders()
     return $request
 }
 
-function oktaNewProviderPolicyObject()
+function New-OktaProviderPolicy()
 {
     param
     (
@@ -4048,7 +4048,7 @@ function oktaNewProviderPolicyObject()
     return $policy
 }
 
-function oktaNewSaml2ProtocolObject()
+function New-OktaSaml2Protocol()
 {
     param
     (
@@ -4097,7 +4097,7 @@ function oktaNewSaml2ProtocolObject()
     return $protocol
 }
 
-function oktaAddProvider()
+function Add-OktaProvider()
 {
     param
     (
@@ -4140,7 +4140,7 @@ function oktaAddProvider()
     return $request
 }
 
-function oktaDeleteProvider()
+function Remove-OktaProvider()
 {
     param
     (
